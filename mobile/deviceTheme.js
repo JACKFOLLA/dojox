@@ -1,4 +1,4 @@
-(typeof define === "undefined" ? function(deps, def) { def(); } : define)([
+(typeof define === "undefined" ? function(id, deps, def) { def(); } : define)("dojox/mobile/deviceTheme", [
 	"dojo/_base/config",
 	"dojo/_base/lang",
 	"dojo/_base/window",
